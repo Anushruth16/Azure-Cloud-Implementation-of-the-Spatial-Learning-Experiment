@@ -1,0 +1,13 @@
+C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample\MyCloudProject.Common\bin\Debug\net7.0\MyCloudProject.Common.deps.json
+C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample\MyCloudProject.Common\bin\Debug\net7.0\MyCloudProject.Common.dll
+C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample\MyCloudProject.Common\bin\Debug\net7.0\MyCloudProject.Common.pdb
+C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample\MyCloudProject.Common\obj\Debug\net7.0\MyCloudProject.Common.csproj.AssemblyReference.cache
+C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample\MyCloudProject.Common\obj\Debug\net7.0\MyCloudProject.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample\MyCloudProject.Common\obj\Debug\net7.0\MyCloudProject.Common.AssemblyInfoInputs.cache
+C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample\MyCloudProject.Common\obj\Debug\net7.0\MyCloudProject.Common.AssemblyInfo.cs
+C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample\MyCloudProject.Common\obj\Debug\net7.0\MyCloudProject.Common.csproj.CoreCompileInputs.cache
+C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample\MyCloudProject.Common\obj\Debug\net7.0\MyCloudProject.Common.sourcelink.json
+C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample\MyCloudProject.Common\obj\Debug\net7.0\MyCloudProject.Common.dll
+C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample\MyCloudProject.Common\obj\Debug\net7.0\refint\MyCloudProject.Common.dll
+C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample\MyCloudProject.Common\obj\Debug\net7.0\MyCloudProject.Common.pdb
+C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample\MyCloudProject.Common\obj\Debug\net7.0\ref\MyCloudProject.Common.dll

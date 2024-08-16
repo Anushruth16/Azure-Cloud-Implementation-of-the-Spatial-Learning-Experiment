@@ -1,0 +1,7 @@
+C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\CC_MyWork\Exercise3\DoneRightApp\pub\DoneRightApp.exe
+C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\CC_MyWork\Exercise3\DoneRightApp\pub\appsettings.Development.json
+C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\CC_MyWork\Exercise3\DoneRightApp\pub\appsettings.json
+C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\CC_MyWork\Exercise3\DoneRightApp\pub\DoneRightApp.dll
+C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\CC_MyWork\Exercise3\DoneRightApp\pub\DoneRightApp.deps.json
+C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\CC_MyWork\Exercise3\DoneRightApp\pub\DoneRightApp.runtimeconfig.json
+C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\CC_MyWork\Exercise3\DoneRightApp\pub\DoneRightApp.pdb

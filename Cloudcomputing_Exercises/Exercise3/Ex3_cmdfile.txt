@@ -1,0 +1,70 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\CC_MyWork\Exercise3> dotnet new mvc --name DoneRightApp
+The template "ASP.NET Core Web App (Model-View-Controller)" was created successfully.
+This template contains technologies from parties other than Microsoft, see https://aka.ms/aspnetcore/8.0-third-party-notices for details.
+
+Processing post-creation actions...
+Restoring C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\CC_MyWork\Exercise3\DoneRightApp\DoneRightApp.csproj:
+  Determining projects to restore...
+  Restored C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\CC_MyWork\Exercise3\DoneRightApp\DoneRightApp.csproj (in 152
+   ms).
+Restore succeeded.
+
+
+PS C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\CC_MyWork\Exercise3> cd DoneRightApp
+PS C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\CC_MyWork\Exercise3\DoneRightApp> dotnet run
+Building...
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://localhost:5249
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Development
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\CC_MyWork\Exercise3\DoneRightApp
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+info: Microsoft.Hosting.Lifetime[0]
+      Application is shutting down...
+PS C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\CC_MyWork\Exercise3\DoneRightApp> dotnet publish -o pub
+MSBuild version 17.8.3+195e7f5a3 for .NET
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  DoneRightApp -> C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\CC_MyWork\Exercise3\DoneRightApp\bin\Release\net8.0\DoneRightApp.dll
+  DoneRightApp -> C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\CC_MyWork\Exercise3\DoneRightApp\pub\
+PS C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\CC_MyWork\Exercise3\DoneRightApp> az webapp deployment source config-zip --src Pub.zip --resource-group RG-AnushruthEX3 --name CloudEx3DoneRight
+D:\a\_work\1\s\build_scripts\windows\artifacts\cli\Lib\site-packages\cryptography/hazmat/backends/openssl/backend.py:17: UserWarning: You are using cryptography on a 32-bit Python on a 64-bit Windows Operating System. Cryptography will be significantly faster if you switch to using a 64-bit Python.
+This command has been deprecated and will be removed in a future release. Use 'az webapp deploy' instead.
+Getting scm site credentials for zip deployment
+Starting zip deployment. This operation can take a while to complete ...
+Deployment endpoint responded with status code 202
+{
+  "active": true,
+  "author": "N/A",
+  "author_email": "N/A",
+  "build_summary": {
+    "errors": [],
+    "warnings": []
+  },
+  "complete": true,
+  "deployer": "Push-Deployer",
+  "end_time": "2024-05-10T23:41:01.8697882Z",
+  "id": "d4e6d88f-d6c1-4f14-a7f9-e520757a4e90",
+  "is_readonly": true,
+  "is_temp": false,
+  "last_success_end_time": "2024-05-10T23:41:01.8697882Z",
+  "log_url": "https://cloudex3doneright.scm.azurewebsites.net/api/deployments/d4e6d88f-d6c1-4f14-a7f9-e520757a4e90/log",
+  "message": "Created via a push deployment",
+  "progress": "",
+  "received_time": "2024-05-10T23:40:57.9157176Z",
+  "site_name": "cloudex3doneright",
+  "start_time": "2024-05-10T23:40:59.1111281Z",
+  "status": 4,
+  "status_text": "",
+  "url": "https://cloudex3doneright.scm.azurewebsites.net/api/deployments/d4e6d88f-d6c1-4f14-a7f9-e520757a4e90"
+}
+PS C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\CC_MyWork\Exercise3\DoneRightApp>

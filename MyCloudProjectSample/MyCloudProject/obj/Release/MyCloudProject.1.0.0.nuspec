@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MyCloudProject</id>
+    <version>1.0.0</version>
+    <authors>MyCloudProject</authors>
+    <description>Package Description</description>
+    <repository type="git" commit="5b87006ef06f8692d265db571d80b49567eec894" />
+    <dependencies>
+      <group targetFramework="net7.0">
+        <dependency id="MyCloudProject.Common" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="MyExperiment" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="HtmImageEncoder" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" version="1.20.1" exclude="Build,Analyzers" />
+        <dependency id="NeoCortexApi" version="1.1.4.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <contentFiles>
+      <files include="any/net7.0/NuGet.Config" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample\MyCloudProject\bin\Release\net7.0\MyCloudProject.runtimeconfig.json" target="lib\net7.0\MyCloudProject.runtimeconfig.json" />
+    <file src="C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample\MyCloudProject\bin\Release\net7.0\MyCloudProject.dll" target="lib\net7.0\MyCloudProject.dll" />
+    <file src="C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample\MyCloudProject\NuGet.Config" target="content\NuGet.Config" />
+    <file src="C:\Users\ANUSHRUTH\Documents\GitHub\se-cloud-2023-2024\Source\MyCloudProjectSample\MyCloudProject\NuGet.Config" target="contentFiles\any\net7.0\NuGet.Config" />
+  </files>
+</package>

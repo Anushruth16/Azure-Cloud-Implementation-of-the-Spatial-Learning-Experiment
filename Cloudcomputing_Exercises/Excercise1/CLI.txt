@@ -1,0 +1,83 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\ANUSHRUTH> az --version
+azure-cli                         2.59.0
+
+core                              2.59.0
+telemetry                          1.1.0
+
+Dependencies:
+msal                              1.27.0
+azure-mgmt-resource             23.1.0b2
+
+Python location 'C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\python.exe'
+Extensions directory 'C:\Users\ANUSHRUTH\.azure\cliextensions'
+
+Python (Windows) 3.11.8 (tags/v3.11.8:db85d51, Feb  6 2024, 21:52:07) [MSC v.1937 32 bit (Intel)]
+
+Legal docs and information: aka.ms/AzureCliLegal
+
+
+Your CLI is up-to-date.
+PS C:\Users\ANUSHRUTH> az login
+A web browser has been opened at https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize. Please continue the login in the web browser. If no web browser is available or if the web browser fails to open, use device code flow with `az login --use-device-code`.
+The following tenants don't contain accessible subscriptions. Use 'az login --allow-no-subscriptions' to have tenant level access.
+604c1504-c6a3-4080-81aa-b33091104187 'Microsoft Learn Sandbox'
+[
+  {
+    "cloudName": "AzureCloud",
+    "homeTenantId": "66c5e13f-8c43-4359-b2e8-51775c6d298d",
+    "id": "5c3587fc-7b59-41bc-a134-d35c2129c94b",
+    "isDefault": true,
+    "managedByTenants": [],
+    "name": "Azure for Students",
+    "state": "Enabled",
+    "tenantId": "66c5e13f-8c43-4359-b2e8-51775c6d298d",
+    "user": {
+      "name": "anushruthpal.keshavathi-jayapal@stud.fra-uas.de",
+      "type": "user"
+    }
+  }
+]
+PS C:\Users\ANUSHRUTH> az account show
+{
+  "environmentName": "AzureCloud",
+  "homeTenantId": "66c5e13f-8c43-4359-b2e8-51775c6d298d",
+  "id": "5c3587fc-7b59-41bc-a134-d35c2129c94b",
+  "isDefault": true,
+  "managedByTenants": [],
+  "name": "Azure for Students",
+  "state": "Enabled",
+  "tenantId": "66c5e13f-8c43-4359-b2e8-51775c6d298d",
+  "user": {
+    "name": "anushruthpal.keshavathi-jayapal@stud.fra-uas.de",
+    "type": "user"
+  }
+}
+PS C:\Users\ANUSHRUTH> az account list --output table
+Name                CloudName    SubscriptionId                        TenantId                              State    IsDefault
+------------------  -----------  ------------------------------------  ------------------------------------  -------  -----------
+Azure for Students  AzureCloud   5c3587fc-7b59-41bc-a134-d35c2129c94b  66c5e13f-8c43-4359-b2e8-51775c6d298d  Enabled  True
+PS C:\Users\ANUSHRUTH> az group create --name RG-Ex1 --location eastus2
+{
+  "id": "/subscriptions/5c3587fc-7b59-41bc-a134-d35c2129c94b/resourceGroups/RG-Ex1",
+  "location": "eastus2",
+  "managedBy": null,
+  "name": "RG-Ex1",
+  "properties": {
+    "provisioningState": "Succeeded"
+  },
+  "tags": null,
+  "type": "Microsoft.Resources/resourceGroups"
+}
+PS C:\Users\ANUSHRUTH> az group list --output table
+Name             Location    Status
+---------------  ----------  ---------
+RG-AnushruthEX1  eastus      Succeeded
+RG-Ex1           eastus2     Succeeded
+PS C:\Users\ANUSHRUTH> az group delete --name RG-Ex1
+Are you sure you want to perform this operation? (y/n): y
+PS C:\Users\ANUSHRUTH>

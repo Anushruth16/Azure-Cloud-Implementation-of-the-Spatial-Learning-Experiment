@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Tc+zJrJ7p0UUiqK5q9Qc49cNWifvjMarK5PV9uXQNrFyyb62lJ8u6S3mtEzHLJ/RYrIdSOJbfwtFeQpUeT7E6Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ANUSHRUTH\\Documents\\GitHub\\se-cloud-2023-2024\\CC_MyWork\\Exercise4\\WebApplication4\\WebApplication4\\WebApplication4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ANUSHRUTH\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.5\\microsoft.visualstudio.azure.containers.tools.targets.1.19.5.nupkg.sha512"
+  ],
+  "logs": []
+}
